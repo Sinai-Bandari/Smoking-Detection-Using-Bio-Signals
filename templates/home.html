@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smoking Detection Project</title>
+    <style>
+    body{    
+        margin: 0;
+        padding: 0;
+        color: black;
+        background-image: url("../static/smoke.jpg");
+        background-position-x: center;
+        background-position-y: top;
+        background-image: no-repeat;
+        height: 1500px;
+        width: 750px;
+
+        }
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        color: black;
+        }
+    
+    .left-column {
+        position: relative;
+        right: 20px;
+        bottom: 10px;
+        flex-basis: 55%;
+        padding-right: 40px;
+        }
+    
+    .right-column {
+        position: absolute;
+        left: 790px;
+        bottom: 12px;
+        flex-basis: 50%;
+        padding-left: 10px;
+        }
+    
+    h3 {
+        color: #ff0000;
+        margin-top: 0;
+        }
+    
+    .button {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        color: #ffffff;
+        background-color: #ff0000;
+        text-decoration: none;
+        border-radius: 4px;
+        margin-top: 20px;
+    
+        }
+    .contact-form {
+        margin-top: 40px;
+    
+        }
+    
+    .contact-form input[type="text"],
+    .contact-form textarea {
+        width: 90%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    
+        }
+    
+    .contact-form.button {
+        margin-top: 10px;
+    }
+    </style>
+    
+</head>
+
+<body> 
+    <div class="container">
+        <div class="top-column">
+            <p style="font-size: 40px;">Non-Invasive Smoking Detection through Bio-Signals</p>
+
+            <br><br><br><br><br><br>
+            <p style="font-size: 15px;"> <b>  Click on Predict on The Top it will Take You To Input your Data Points</b></p>
+
+        </div>
+
+        <div class="top-column">
+            <a href="/" class="button">Home</a>
+            <a href="/predict" class="button">Prediction</a>
+            <br><br>
+
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form action="https://formsubmit.co/0faf1458d3cf0e276f4f899db62fe0bb" method="post">
+            <input type="text" placeholder="Full Name" name="fullname" required>
+            <input type="text" placeholder="Email Address" name="email" required>
+            <input type="text" placeholder="Subject" name="Subject" required>
+            <textarea placeholder="Tell us about your problem" name="problem"></textarea>
+            <button type="submit" class="button">Send Message</button>
+        </form>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>

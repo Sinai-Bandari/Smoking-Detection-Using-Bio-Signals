@@ -88,7 +88,7 @@ http://127.0.0.1:5000/
 
 ## 📷 Screenshots
 
-*(Add screenshots of your web app UI here)*
+
 <img width="1533" height="1011" alt="Screenshot 2025-03-31 141016" src="https://github.com/user-attachments/assets/482c099f-d3c0-4fbc-8e3a-94ff4b6184a4" />
 <img width="1875" height="720" alt="Screenshot 2025-03-31 141121" src="https://github.com/user-attachments/assets/9ac63527-9350-4f52-ba0b-dd55822eef26" />
 <img width="1919" height="887" alt="Screenshot 2025-03-31 141202" src="https://github.com/user-attachments/assets/cbfc08bb-1040-4051-8754-a7108ce406a3" />
